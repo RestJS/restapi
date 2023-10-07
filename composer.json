@@ -1,0 +1,30 @@
+{
+    "name": "restjs/restapi",
+    "description": "Create easily REST API with the help of Composer",
+    "type": "project",
+    "keywords": [
+        "PhpRestAPI",
+        "RestAPI"
+    ],
+    "homepage": "https://github.com/RestJS/restapi",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pramod Singh",
+            "email": "spramodgusain@gmail.com",
+            "homepage": "https://github.com/fullstackondemand",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": "7.1.*|7.2.*|7.3.*|7.4.*|8.0.*|8.1.*",
+        "restjs/php-rest-api": "^1.0"
+    },
+    "scripts": {
+        "post-create-project-cmd": [
+            "mkdir uploads"
+        ]
+    }
+}
