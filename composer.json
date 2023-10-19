@@ -20,7 +20,9 @@
     "prefer-stable": true,
     "require": {
         "php": "7.1.*|7.2.*|7.3.*|7.4.*|8.0.*|8.1.*",
-        "restjs/php-rest-api": "^1.0"
+        "restjs/php-rest-api": "^2.0",
+        "vlucas/phpdotenv": "^5.5"
+
     },
     "scripts": {
         "post-create-project-cmd": [

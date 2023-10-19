@@ -1,5 +1,5 @@
 # Php Rest API
-This is create for start **Php Reset API** and easily manage and scale your database. 
+This is create for start **Php Rest API** and easily manage and scale your database. 
 
 ## Installation
 Run the Composer command to install the latest stable version of RestJS:
@@ -11,14 +11,14 @@ $ composer create-project restjs/restapi
 ## Getting Started
 - Create new **Database** with `database_name`.
 - Import php-rest-api.sql file in **MySQL Database**.
-- Configure database variables in env.php:
+- Configure database variables in .env:
 
 ```
-define('SERVER_NAME', '');
-define('USER_NAME', '');
-define('PASSWORD', '');
-define('DATABASE_NAME', '');
-define('ACCESS_TOKEN', '');
+HOST_NAME = ''
+USER_NAME = ''
+PASSWORD = ''
+DATABASE_NAME = ''
+ACCESS_TOKEN = ''
 ```
 
 ### Used Feature
